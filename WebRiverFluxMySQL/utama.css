@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans';
+    background: linear-gradient(to right, #6063bc, #9394cc);
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+div.isi {
+    padding: 57px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: white;
+}
+
+div.infowaktu {
+    font-family: DS-Digital;
+    font-size: 30px;
+    color: #3d3f8b;
+    margin: 15px 0px 0px 0px;
+}
+
+div.info {
+    background-color: #dedef4;
+    border-radius: 20px;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+}
+
+div.info::-webkit-scrollbar {
+    display: none
+}
+
+div.infoarea {
+    display: inline-block;
+    border: solid 2px #5f62bc;
+    border-radius: 20px;
+    max-width: 250px;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.infoarea:hover {
+    background: linear-gradient(to left, #6063bc, #9394cc);
+    color: white;
+
+}
+
+div.infoarea img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+
+}
+
+div.infoarea p {
+    font-family: Geometos;
+    font-size: 15px;
+    text-align: center;
+}
+
+div.timeinfo p {
+    font-family: 'Work Sans';
+    font-size: 12px;
+}
+
+div.judperingatan {
+    font-family: 'Work Sans';
+    font-size: 35px;
+    color: #5f62bc;
+    text-transform: uppercase;
+    text-align: center;
+    margin : 30px 0px 0px 0px;
+}
+
+div.infoperingatan {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    display: flex;
+    margin: 10px 0px 25px 0px;
+}
+
+div.infoperingatan::-webkit-scrollbar {
+    display: none;
+
+}
+
+div.infobanjir {
+    border: solid 5px #5f62bc;
+    border-color: #5f62bc;
+    border-radius :3px;
+    background-color: none;
+    display: inline-block;
+    min-width: 300px;
+    text-align: left;
+    padding: 10px;
+    margin: 3px 10px 5px 10px;
+}
+
+div.judarea a {
+    font-family: Geometos;
+    font-size: 30px;
+    color: #5f62bc;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+div.ketarea {
+    font-family: 'Work Sans';
+    font-size: 15px;
+    color: #808080;
+    padding: 10px 0px 0px 0px;
+}
+
+div.waspada {
+    border-color: #ff0000;
+    background-color: #ffe2e2;
+}
+
+div.siaga {
+    border-color: #ff6a00;
+    background-color: #f7decc;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px #5f62bc;
+    font-size: 15px;
+    width: 100%;
+}
+
+div.desaintable {
+    table-layout: auto;
+    width: 100%;
+}
+
+table tr, th {
+    text-align: center;
+    padding: 5px;
+}
+
+table th {
+    background: #6063bc;
+    text-transform: uppercase;
+    color: white;
+}
+
+table td {
+    padding: 10px 5px 10px 5px;
+}
+
+td a {
+    color: #5f62bc;
+    text-decoration-line: none;
+}
+
+td a:hover {
+    border: solid 1px #5f62bc;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to left, #6063bc, #9394cc);
+    padding: 5px;
+    text-decoration-line: none;
+    }
+
+div.ringkas {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+}

@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans';
+    background: linear-gradient(to right, #6063bc, #9394cc);
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+h1 {
+    font-family: 'Geometos';
+    text-align: center;
+    color: #6063bc;
+    background: white;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Geometos';
+    text-align: center;
+    color: #6063bc;
+    background: none;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+div.isi {
+    padding: 57px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: white;
+    text-align: center;
+}
+
+div.info {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+div.infoarea {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    background: linear-gradient(to left, #6063bc, #9394cc);
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 200px;
+    max-height: 380px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+div.infoarea::-webkit-scrollbar{
+    display:none
+}
+
+div.keterangan {
+    display: inline-block;
+    margin: 20px 10px 20px 5px;
+    font-family: 'Yu Gothic UI';
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    position: relative;
+    min-width: 380px;
+}
+
+div.keterangan ul{
+    padding-top : 10px;
+}
+
+div.keterangan li{
+    margin : 0px 0px 0px 30px;
+}
+
+div.keterangan img{
+    width : 100%;
+    min-width : 200px;
+    max-width : 600px;
+    padding-left : 15px;
+    height : auto;
+}
+
+div.keterangan:hover .alamatsungai {
+    display: block;
+}
+
+div.alamatsungai {
+    display: none;
+    position: absolute;
+    background-color: #6063bc;
+    margin-left: 15px;
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 3px 8px;
+    z-index: 1;
+    font-size: 9px;
+}
+
+div.alamatsungai .iframe{
+    padding-left : 30px;
+    background-color: none;
+}
+
+div.bottomright {
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+    font-size: 60%;
+    font-family: 'Work Sans';
+    padding: 1px 2px 1px 2px;
+    background-color: #6063bc;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 100%;
+}
+
+div.desaintable {
+    table-layout: auto;
+    width: 100%;
+}
+
+table tr, th, td {
+    text-align: center;
+    border: solid 1px #5f62bc;
+    padding: 5px;
+}
+
+table th {
+    background: #6063bc;
+    text-transform: uppercase;
+    color: white;
+}
+
+div.tablekondisi {
+    table-layout: auto;
+    width: 100%;
+}
+
+div.tablekondisi td{
+    padding : 20px 5px 20px 5px;
+}
+
+div.imgtd img{
+    width : 200px;
+}
+
+div.infografik {
+    border: 1px solid #6063bc;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    block-size: 100%;
+}
+
+canvas {
+    top: 50%;
+    width: 100%;
+    max-width: 400px;
+    position: center;
+    block-size: 100%;
+    height: auto;
+}
+
+div.center {
+    top: 50%;
+    position: center;
+    block-size: 500px;
+    height: auto;
+}
+
+div.referensi {
+    border: 1px solid #6063bc;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    block-size: 100%;
+    text-align: left;
+    font-family: Garamond;
+}
+
+div.referensi li {
+    margin : 0px 30px 0px 30px;
+}
+
